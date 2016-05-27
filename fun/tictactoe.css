@@ -1,0 +1,45 @@
+body {
+	position: absolute;
+}
+
+.rows {
+	
+	margin-left: 0rem;
+	display: block;
+}
+
+span {
+	margin-top: 5rem;
+	display: inline-block;
+}
+
+#Gameplay {
+    height: 50rem;
+    width: 46.7rem;
+    margin-left: 20rem;
+    margin-top: 6rem;
+    position: relative;
+}
+
+.boxes {
+	display: inline-block;
+	margin-left: .10rem;
+	height: 15rem;
+	width: 15rem;
+	background-color: #efefef;
+	border: solid black .05rem;
+	text-align: center;
+	font-size: 4rem;
+}
+
+.boxes:hover {
+	background-color: #777777;
+}
+
+.boxes:active {    
+	background-color: #777777;
+    padding-left: 0.09rem;
+    padding-right: 0.09rem;
+    height: 14.8rem;
+    width: 14.8rem;
+}
